@@ -8,6 +8,6 @@ A project to engage with the bitcoin Lightning Network over RFID/NFC, using an E
 
 Wire as below,
 
-![alt text](https://i.imgur.com/tAMT1un.png)
+![alt text](https://i.imgur.com/OezVCKC.png)
 
 
