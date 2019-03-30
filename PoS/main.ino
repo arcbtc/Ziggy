@@ -203,17 +203,19 @@ void cardcheck() {
       Serial.println(macaroon);
       makepayment(macaroon);
       
-      u8g2.firstPage();
-      do {
-        u8g2.setFont(u8g2_font_ncenB14_tr);
-        u8g2.drawStr(0,20,"Paid!");
-       }  while ( u8g2.nextPage() ); 
+
        
        checkpayment(data_id);
        
        if (data_status != "unpaid"){
           counta = 121;
+          u8g2.firstPage();
+          do {
+             u8g2.setFont(u8g2_font_ncenB14_tr);
+             u8g2.drawStr(0,20,"Paid!");
+          }  while ( u8g2.nextPage() ); 
        }
+      
        else{
           u8g2.firstPage();
           do {
