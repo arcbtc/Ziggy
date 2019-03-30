@@ -45,7 +45,7 @@ void loop() {
 
   Serial.setTimeout(20000L) ;     // wait until 20 seconds for input from serial
   // Ask personal data: Family name
-  Serial.println(F("Type LN Node Address, followed by #"));
+  Serial.println(F("Paste macaroon/withdraw-apikey, followed by #")); //Note: You will need to strip out the "-" from the OpenNode API key
   len = Serial.readBytesUntil('#', (char *) buffer, 32) ; // read family name from serial
   
   byte buffer2[16];
