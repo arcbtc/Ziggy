@@ -7,9 +7,6 @@
 #include <Keypad.h>
 #include <ArduinoJson.h>
 #include <string.h>
-#include <Keypad.h>
-
-
 
 char wifiSSID[] = "YOUR-WIFI-SSID";
 char wifiPASS[] = "YOUR-WIFI-PASS";
