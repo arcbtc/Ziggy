@@ -214,6 +214,7 @@ void cardcheck() {
              u8g2.setFont(u8g2_font_ncenB14_tr);
              u8g2.drawStr(0,20,"Paid!");
           }  while ( u8g2.nextPage() ); 
+         delay(2000);
        }
       
        else{
