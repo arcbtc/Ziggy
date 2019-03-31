@@ -1,6 +1,6 @@
 ![alt text](https://i.imgur.com/telFnTB.png)
 
-# ⚡⚡⚡⚡⚡⚡⚡ Ziggy Stardust ⚡⚡⚡⚡⚡⚡⚡ </br> (A dynamic Lightning Network point of sale device) 
+# ⚡⚡⚡⚡⚡⚡⚡ Ziggy Stardust ⚡⚡⚡⚡⚡⚡⚡ </br> (An NFC bitcoin Lightning Network point of sale device) 
 
 ## *"There is life on Mars"*
 
