@@ -34,11 +34,11 @@ Parts list with 2 possible sources, from: Aliexpress.com (cheaper, but slower) &
 [Amazon](https://www.amazon.co.uk/s?k=16+key+membrane)
 
 
-Assemble as per above wiring diagram.
+* Assemble as per above wiring diagram.
 
-Use USB micro cable to connect ESP32 to PC 
+* Use USB micro cable to connect ESP32 to PC 
 
-Install RFID library:
+* Install RFID library:
 * Type in RFID<br>
 ![rfid](https://raw.githubusercontent.com/derrickr/arcbtc/master/images/rfid.png)
 * Scroll down to MFRC522 byGithubCommunity
