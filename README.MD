@@ -12,7 +12,9 @@ A project to engage with the bitcoin Lightning Network over RFID/NFC, using an E
 ![alt text](https://i.imgur.com/CtX7M1d.png)
 
 
-Parts list with 2 possible sources, from: Aliexpress.com (cheaper, but slower) & Amazon.co.uk (faster, more expensive):
+**Parts list**
+
+2 possible sources, from: Aliexpress.com (cheaper, but slower) & Amazon.co.uk (faster, more expensive):
 
 1.	ESP32 Wireless WiFi Bluetooth Development Board
 [AliExpress](https://www.aliexpress.com/wholesale?catId=0&SearchText=ESP32+Wireless+WiFi+Bluetooth+Development+Board) / 
@@ -33,23 +35,26 @@ Parts list with 2 possible sources, from: Aliexpress.com (cheaper, but slower) &
 [AliExpress](https://www.aliexpress.com/wholesale?catId=0&SearchText=16+key+membrane) / 
 [Amazon](https://www.amazon.co.uk/s?k=16+key+membrane)
 
+**Procedure**
 
 * Assemble as per above wiring diagram.
 
-* Use USB micro cable to connect ESP32 to PC 
+* Connect ESP32 to PC with USB micro cable.
 
 * Install RFID library:
-* Type in RFID<br>
+	* Type in RFID<br>
 ![rfid](https://raw.githubusercontent.com/derrickr/arcbtc/master/images/rfid.png)
-* Scroll down to MFRC522 byGithubCommunity
-* Click Install
+	* Scroll down to MFRC522 byGithubCommunity
+	* Click Install
 
 **Dumpinfo example**
 
-File -> Examples -> Dumpinfo
+* Check your Arduino IDE is working with your ESP32.
+
+* File -> Examples -> Dumpinfo
 ![dumpinfo](https://raw.githubusercontent.com/derrickr/arcbtc/master/images/dumpinfo.png)
 
-Change pin values on lines 39 & 40 from 9 and 10 to 22 and 5
+* Change pin values on lines 39 & 40 from 9 and 10 to 22 and 5
 ![pins](https://raw.githubusercontent.com/derrickr/arcbtc/master/images/pins.png)
 
 * Uploade code
@@ -66,23 +71,24 @@ Change pin values on lines 39 & 40 from 9 and 10 to 22 and 5
 
 * Create an opennode.com account
 
-First we generate an API Key for the Customer account:
-* Click on:	Developers -> Integrations -> Add Key
-* Enter Label:	NFCWITHDRAW
-* Select Withdrawals from the Permissions dropdown
-* Enter your 2FA
-* Click on Generate<br>
+* First we generate an API Key for the Customer account:
+	* Click on:	Developers -> Integrations -> Add Key
+	* Enter Label:	NFCWITHDRAW
+	* Select Withdrawals from the Permissions dropdown
+	* Enter your 2FA
+	* Click on Generate<br>
 ![customerKey](https://raw.githubusercontent.com/derrickr/arcbtc/master/images/customerKey.png)
 
 * Copy the API Key to your clipboard, then paste into a text editor & remove the hypens<br>
 ![keyRemovedHyphens](https://raw.githubusercontent.com/derrickr/arcbtc/master/images/keyRemovedHyphens.png)
 
 
-Now we repeat for Merchant account
-* Click on:	Developers -> Integrations -> Add Key
-* Enter Label:	NFCINVOICE
-* Select Invoices from the Permissions dropdown
-Copy the API Key to your clipboard, then paste into a text editor<br>
+* Repeat for Merchant account
+	* Click on:	Developers -> Integrations -> Add Key
+	* Enter Label:	NFCINVOICE
+	* Select Invoices from the Permissions dropdown
+	* Click Generate
+	* Copy the API Key to your clipboard, then paste into a text editor<br>
 ![merchantKey](https://raw.githubusercontent.com/derrickr/arcbtc/master/images/merchantKey.png)
 <br>
 
