@@ -141,3 +141,8 @@ A project to engage with the bitcoin Lightning Network over RFID/NFC, using an E
 * The OLED should then display "..." followed by "Tap card" and finally "Paid!"
 
 * You can now go back to opennode.com to check the transactions (remembering to refresh the page)
+
+
+# Tip me
+If you like this project and might even use or extend it, why not send some tip love!
+https://paywall.link/to/f4e4e
